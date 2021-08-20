@@ -1,0 +1,9 @@
+.about-description{
+    font-size: 1.5rem;
+    max-width:70ch;
+}
+
+.about{
+    background: linear-gradient(to bottom,rgb(89, 89, 129),rgb(64, 90, 175));
+    min-height: 90vh;
+}

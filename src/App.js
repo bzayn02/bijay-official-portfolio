@@ -1,23 +1,50 @@
-import logo from './logo.svg';
+import {Hero} from './components/hero/Hero'
+import {Skills} from './components/sections/skills/Skills'
+import {Projects} from './components/sections/projects/Projects'
+import {About} from './components/sections/about/About'
+import {Contact} from './components/sections/contact/Contact'
+import {Footer} from './components/footer/Footer'
+import {Goup} from './components/go-upBtn/Goup'
+import {MainLayout} from './components/layout/MainLayout'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+      <Router> 
+        <Switch>
+        <MainLayout>
+        
+          <Route path="/Skills" children={<Skills />} />
+          <Route path="/Projects" children={<Projects />} />
+          <Route path="/About" children={<About />} />
+          
+          <Route path="/Contact" children={<Contact />} />
+        
+          <Route path="/Home" children={<Hero />} />
+    
+      
+
+      
+      </MainLayout>
+        </Switch>
+       
+        
+        </Router>
+        
     </div>
   );
 }

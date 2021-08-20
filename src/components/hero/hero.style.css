@@ -1,0 +1,26 @@
+.hero{
+    min-height: 100vh;
+    background: linear-gradient(to top, rgb(11, 19, 36),rgba(66, 67, 148, 1));
+    /* background: url("../../assets/images/heroimg.jpeg"); */
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment:fixed ;
+
+  }
+
+  .intro{
+    font-size:2.5rem;
+  }
+
+  .name{
+    font-size: 3rem;
+    font-weight: 400;
+    color:rgb(214, 202, 38);
+  }
+
+  .bio{
+    font-size:2rem;
+    max-width:45ch;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+  }
