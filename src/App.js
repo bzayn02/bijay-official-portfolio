@@ -26,20 +26,17 @@ function App() {
      
       <Router> 
         <Switch>
+        
         <MainLayout>
-        
-          <Route path="/Skills" children={<Skills />} />
-          <Route path="/Projects" children={<Projects />} />
-          <Route path="/About" children={<About />} />
+       
+          <Route exact path="/Skills" children={<Skills />} />
+          <Route exact path="/Projects" children={<Projects />} />
+          <Route exact path="/About" children={<About />} />
           
-          <Route path="/Contact" children={<Contact />} />
-        
-          <Route path="/" children={<Hero />} />
-    
-      
-
-      
+          <Route exact path="/Contact" children={<Contact />} />
+          <Route exact path="/" children={<Hero />} />
       </MainLayout>
+      
         </Switch>
        
         
