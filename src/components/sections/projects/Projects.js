@@ -26,15 +26,15 @@ export const Projects = () => {
                         </div>
                     </Col>
                     <Col md="7">
-                    <div class="mb-4">
+                    <div className="mb-4">
                         
-                            <div class="info">
-                                <div class="info-title fs-3">Project Portfolio</div>
-                                <div class="tech fs-4">Techs used.</div>
-                                <div class="links fs-4">
-                                    <a href=""><i class="fab fa-github-square"></i></a>
+                            <div className="info">
+                                <div className="info-title fs-3">Project Portfolio</div>
+                                <div className="tech fs-4">Techs used.</div>
+                                <div className="links fs-4">
+                                    <a href=""><i className="fab fa-github-square"></i></a>
                                     <a href="">
-                                        <i class="fab fa-chrome"></i>
+                                        <i className="fab fa-chrome"></i>
                                     </a>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum necessitatibus ullam eum et voluptatibus. Repellendus maiores similique quae in provident!</p>
@@ -49,15 +49,15 @@ export const Projects = () => {
 
                 <Row className="my-4">
                 <Col md="7">
-                    <div class="mb-4">
+                    <div className="mb-4">
                         
-                            <div class="info">
-                                <div class="info-title fs-3">Project Portfolio</div>
-                                <div class="tech fs-4">Techs used.</div>
-                                <div class="links fs-4">
-                                    <a href=""><i class="fab fa-github-square"></i></a>
+                            <div className="info">
+                                <div className="info-title fs-3">Project Portfolio</div>
+                                <div className="tech fs-4">Techs used.</div>
+                                <div className="links fs-4">
+                                    <a href=""><i className="fab fa-github-square"></i></a>
                                     <a href="">
-                                        <i class="fab fa-chrome"></i>
+                                        <i className="fab fa-chrome"></i>
                                     </a>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum necessitatibus ullam eum et voluptatibus. Repellendus maiores similique quae in provident!</p>
@@ -65,7 +65,7 @@ export const Projects = () => {
                         </div>
                     </Col>
                     <Col md="5">
-                        <div class="pro-img me-2">
+                        <div className="pro-img me-2">
                             <img src={portfolio} height="100%" width="90%" alt="" />
                         </div>
                     </Col>
@@ -76,20 +76,20 @@ export const Projects = () => {
                 <Row className="py-4">
                     
                     <Col md="5">
-                        <div class="pro-img me-2">
+                        <div className="pro-img me-2">
                             <img src={portfolio} height="100%" width="90%" alt="" />
                         </div>
                     </Col>
                     <Col md="7">
-                    <div class="pb-4">
+                    <div className="pb-4">
                         
-                            <div class="info">
-                                <div class="info-title fs-3">Project Portfolio</div>
-                                <div class="tech fs-4">Techs used.</div>
-                                <div class="links fs-4">
-                                    <a href=""><i class="fab fa-github-square"></i></a>
+                            <div className="info">
+                                <div className="info-title fs-3">Project Portfolio</div>
+                                <div className="tech fs-4">Techs used.</div>
+                                <div className="links fs-4">
+                                    <a href=""><i className="fab fa-github-square"></i></a>
                                     <a href="">
-                                        <i class="fab fa-chrome"></i>
+                                        <i className="fab fa-chrome"></i>
                                     </a>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum necessitatibus ullam eum et voluptatibus. Repellendus maiores similique quae in provident!</p>

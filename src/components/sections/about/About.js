@@ -20,8 +20,8 @@ export const About = () => {
 
                 <Row className="py-3">
                     <Col md="5">
-                    <div class="pro-img">
-                            <img class="img-responsive" src={bijay} width="90%" height="100%"alt="" />
+                    <div className="pro-img">
+                            <img className="img-responsive" src={bijay} width="90%" height="100%"alt="" />
                         </div>
                     </Col>
                     <Col md="7">
