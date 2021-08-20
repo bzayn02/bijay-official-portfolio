@@ -9,7 +9,7 @@ export const TopNavbar = () => {
         <div className="navlists">
               <Navbar collapseOnSelect expand= "lg">
             <Container>
-    <LinkContainer className="logo" to="/Home"><Nav.Link>Bijay</Nav.Link></LinkContainer>
+    <LinkContainer className="logo" to="/"><Nav.Link>Bijay</Nav.Link></LinkContainer>
     <Navbar.Toggle aria-controls="basic-navbar-nav"  className="toggler"/>
     <Navbar.Collapse id="basic-navbar-nav" className="toggler">
       <Nav className="ms-auto lists">

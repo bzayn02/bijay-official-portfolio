@@ -3,8 +3,8 @@ import {Skills} from './components/sections/skills/Skills'
 import {Projects} from './components/sections/projects/Projects'
 import {About} from './components/sections/about/About'
 import {Contact} from './components/sections/contact/Contact'
-import {Footer} from './components/footer/Footer'
-import {Goup} from './components/go-upBtn/Goup'
+
+
 import {MainLayout} from './components/layout/MainLayout'
 
 import {
@@ -34,7 +34,7 @@ function App() {
           
           <Route path="/Contact" children={<Contact />} />
         
-          <Route path="/Home" children={<Hero />} />
+          <Route path="/" children={<Hero />} />
     
       
 
