@@ -11,7 +11,7 @@ export const Projects = () => {
     return (
         <div id= "Projects" className="projects">
              <TopNavbar />
-             <hr style={{color:"white"}}/>
+           
             <Container>
                 <Row className="pt-5">
                     <Col>
@@ -32,7 +32,7 @@ export const Projects = () => {
                                 <div className="info-title fs-3">Project Portfolio</div>
                                 <div className="tech fs-4">Techs used.</div>
                                 <div className="links fs-4">
-                                    <a href=""><i className="fab fa-github-square"></i></a>
+                                    <a href="https://github.com/bzayn02"><i className="fab fa-github-square"></i></a>
                                     <a href="">
                                         <i className="fab fa-chrome"></i>
                                     </a>
@@ -55,7 +55,7 @@ export const Projects = () => {
                                 <div className="info-title fs-3">Project Portfolio</div>
                                 <div className="tech fs-4">Techs used.</div>
                                 <div className="links fs-4">
-                                    <a href=""><i className="fab fa-github-square"></i></a>
+                                    <a href="https://github.com/bzayn02"><i className="fab fa-github-square"></i></a>
                                     <a href="">
                                         <i className="fab fa-chrome"></i>
                                     </a>
@@ -87,7 +87,7 @@ export const Projects = () => {
                                 <div className="info-title fs-3">Project Portfolio</div>
                                 <div className="tech fs-4">Techs used.</div>
                                 <div className="links fs-4">
-                                    <a href=""><i className="fab fa-github-square"></i></a>
+                                    <a href="https://github.com/bzayn02"><i className="fab fa-github-square"></i></a>
                                     <a href="">
                                         <i className="fab fa-chrome"></i>
                                     </a>

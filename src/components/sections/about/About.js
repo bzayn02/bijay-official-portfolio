@@ -12,7 +12,7 @@ export const About = () => {
 
         <div id="About" className="about">
              <TopNavbar />
-             <hr style={{color:"white"}}/>
+             
             <Container>
                 <Row className="pt-5">
                     <Col><Title title="About Me" /></Col>
@@ -32,6 +32,10 @@ export const About = () => {
                             
                         </div>
                     </Col>
+
+                    <div>
+                        
+                    </div>
                 </Row>
             </Container>
         </div>

@@ -1,5 +1,5 @@
 .hero{
-    min-height: 100vh;
+    min-height: 90vh;
     background: linear-gradient(to top, rgb(11, 19, 36),rgba(66, 67, 148, 1));
     /* background: url("../../assets/images/heroimg.jpeg"); */
     background-repeat: no-repeat ;
@@ -24,3 +24,19 @@
     letter-spacing: 0.5px;
     line-height: 50px;
   }
+
+  .hire-about{
+    display: flex;
+    justify-content:flex-start;
+    
+  }
+
+  .hire{
+    background-color:rgb(214, 202, 38) !important;
+    color:black !important;
+    border-color:rgb(214, 202, 38) !important;
+  }
+  /* .ContactLists-Home{
+    color:rgb(214, 202, 38);
+    text-decoration: none;
+  } */

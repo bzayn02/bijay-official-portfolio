@@ -8,7 +8,7 @@
 }
 
 .Skills{
-    background: linear-gradient(to bottom,rgb(89, 89, 129),rgb(64, 90, 175));
+    background: linear-gradient(to top, rgb(11, 19, 36),rgba(66, 67, 148, 1));
     min-height:100vh;
 }
 
@@ -17,7 +17,15 @@
     height: 300px;
     border-radius: 20px !important; 
     background: rgb(26, 40, 66) !important;
+    transition: transform .4s;
 }
+
+.card:hover{
+    transform:scale(1.2)!important;
+    background:rgb(38, 57, 87) !important;
+    border-color:yellow !important;
+}
+
 
 .cardTitle{
     text-align:center;
@@ -32,4 +40,8 @@ font-weight: 600;
 .cardText{
     padding:20px;
     color:rgba(227, 227, 228, 0.87);
+}
+
+.bar{
+    color: rgb(153, 151, 116) !important;
 }

@@ -1,10 +1,11 @@
 .navlists a:hover{
     color:rgb(214, 202, 38)!important;
+    transform:scale(1.1)!important;
 }
 
-.navbar-nav a{
-    color:black !important;
-}
+
+
+
 
     
 span.navbar-toggler-icon{
@@ -23,17 +24,9 @@ span.navbar-toggler-icon{
     font-weight: 300; 
 }
 
-.logo{
-    color:rgb(214, 202, 38) !important;
+.navlists{
+    width:100%;
+    height: auto;
+    transition: 0.4s !important;
 }
 
-/* .logo{
-    color:white !important;
-    font-size:1.5rem !important;
-    font-weight: bold;
-    margin-top: 2rem;
-} */
-
-/* .logo a:hover{
-    color:rgb(160, 174, 253) !important;
-} */
