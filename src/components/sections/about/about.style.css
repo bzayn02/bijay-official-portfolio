@@ -1,15 +1,12 @@
-.about-description{
-    font-size: 1.5rem;
-    max-width:70ch;
-    color: rgb(175, 175, 175);
+.about-description {
+  font-size: 1.5rem;
+  max-width: 70ch;
+  color: rgb(175, 175, 175);
 }
 
-.about{
-    background: linear-gradient(to top, rgb(11, 19, 36),rgba(66, 67, 148, 1));
-    min-height: 90vh;
+.about {
+  background: linear-gradient(to top, rgb(11, 19, 36), rgba(66, 67, 148, 1));
+  min-height: 90vh;
 }
-
-
 
 /********* timeline ***********/
-

@@ -1,18 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-import {Footer} from '../footer/Footer'
+import { Footer } from '../footer/Footer';
 // import {Goup} from "../go-upBtn/Goup"
 
+export const MainLayout = ({ children }) => {
+  return (
+    <div>
+      {children}
 
-
-
-export const MainLayout = ({children}) => {
-    return (
-        <div>
-           
-            {children}
-           
-            <Footer />
-        </div>
-    )
-}
+      <Footer />
+    </div>
+  );
+};
