@@ -11,14 +11,23 @@ import { WorkExperienceTimeline } from './WorkExperienceTimeline';
 export const About = () => {
    return (
       <div id="About" className="about">
-         <TopNavbar />
          <Container>
-            <Row className="pt-5">
+            <Row className="py-5">
                <Col>
                   <Title title="About Me" />
                </Col>
             </Row>
-            <Row className="py-3">
+            <Row className="">
+               <Col md="7">
+                  <div className="py-2 about-description">
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Aut voluptatibus libero qui mollitia quaerat
+                        ratione autem nihil ut a. Quo facere quisquam fuga neque
+                        repellat, rerum vitae beatae reprehenderit inventore!
+                     </p>
+                  </div>
+               </Col>
                <Col md="5">
                   <div className="pro-img">
                      <img
@@ -30,20 +39,10 @@ export const About = () => {
                      />
                   </div>
                </Col>
-               <Col md="7">
-                  <div className="py-2 about-description">
-                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Aut voluptatibus libero qui mollitia quaerat
-                        ratione autem nihil ut a. Quo facere quisquam fuga neque
-                        repellat, rerum vitae beatae reprehenderit inventore!
-                     </p>
-                  </div>
-               </Col>
             </Row>
          </Container>
          <QualificationTimeline />
-         <WorkExperienceTimeline />
+         {/* <WorkExperienceTimeline /> */}
       </div>
    );
 };

@@ -5,13 +5,14 @@ export const WorkExperienceTimeline = () => {
    return (
       <div>
          <Container>
+            <h1 className="timeline-header">Work Experiences</h1>
             <div className="wrapper">
                <div className="timeline">
                   <ul>
                      <li>
                         <div className="timeline-content">
-                           <h2 className="date">12th September, 2021</h2>
-                           <h1>Heading1</h1>
+                           <h3 className="date">12th September, 2021</h3>
+                           <h2 className="headings">Heading1</h2>
                            <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing
                               elit. Itaque ducimus architecto quae ipsam ratione
@@ -22,8 +23,8 @@ export const WorkExperienceTimeline = () => {
                      </li>
                      <li>
                         <div className="timeline-content">
-                           <h2 className="date">12th September, 2021</h2>
-                           <h1>Heading2</h1>
+                           <h3 className="date">12th September, 2021</h3>
+                           <h2 className="headings">Heading2</h2>
                            <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing
                               elit. Itaque ducimus architecto quae ipsam ratione
@@ -34,8 +35,8 @@ export const WorkExperienceTimeline = () => {
                      </li>
                      <li>
                         <div className="timeline-content">
-                           <h2 className="date">12th September, 2021</h2>
-                           <h1>Heading3</h1>
+                           <h3 className="date">12th September, 2021</h3>
+                           <h2 className="headings">Heading3</h2>
                            <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing
                               elit. Itaque ducimus architecto quae ipsam ratione
@@ -46,8 +47,8 @@ export const WorkExperienceTimeline = () => {
                      </li>
                      <li>
                         <div className="timeline-content">
-                           <h2 className="date">12th September, 2021</h2>
-                           <h1>Heading4</h1>
+                           <h3 className="date">12th September, 2021</h3>
+                           <h2 className="headings">Heading4</h2>
                            <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing
                               elit. Itaque ducimus architecto quae ipsam ratione

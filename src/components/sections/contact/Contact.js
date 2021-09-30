@@ -1,38 +1,71 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Col, Row, Form, Button } from 'react-bootstrap';
-import { TopNavbar } from '../../header/Navbar';
 import { Title } from '../../section-title/Title';
 
 import './contact.style.css';
 
-export const Contact = () => {
+const initialForm = {
+   fname: '',
+   email: '',
+   message: '',
+};
+export const Contact = ({ sendMessage }) => {
+   const [formData, setFormData] = useState(initialForm);
+
+   const handleOnChange = (e) => {
+      const { name, value } = e.target;
+      setFormData({
+         ...formData,
+         [name]: value,
+      });
+      console.log(name, value);
+   };
+   console.log(formData);
+
+   // const handleOnSubmit = (e) => {
+   //    e.preventDefault();
+   // //    // sendMessage(formData);
+   // };
+
+   const handleOnSend = (e) => {
+      e.preventDefault();
+      sendMessage(formData);
+   };
+
    return (
       <div id="Contact" className="contact">
-         <TopNavbar />
          <Container>
             <Row className="py-5">
                <Col>
                   <Title title="Contact Me" />
                </Col>
             </Row>
-            <div className="ContactLists my-4">
+            <div className="textheader">
+               Have some idea to create? Let's communicate!
+            </div>
+            <div className="ContactLists my-3">
                <a href="tel:0410584026">
                   <i className="fas fa-phone-square"></i>
-                  <span className="handlers">04********</span>
+                  <span className="handlers">Call</span>
                </a>
                <a href="mailto:nagarkotibezay02@gmail.com">
                   <i className="fas fa-envelope-square"></i>
-                  <span className="handlers">nagarkotibezay02@gmail.com</span>
+                  <span className="handlers">Email</span>
                </a>
             </div>
-            <div className="my-5">
-               <Form id="contact-form">
+            <div className="pb-3">
+               <Form id="contact-form" onSubmit={handleOnSend}>
                   <Form.Group
                      className="mb-3"
                      controlId="exampleForm.ControlInput1"
                   >
                      <Form.Label className="form-title">Full Name</Form.Label>
-                     <Form.Control type="name" placeholder="Sam Smith" />
+                     <Form.Control
+                        type="name"
+                        onChange={handleOnChange}
+                        name="fname"
+                        placeholder="Sam Smith"
+                     />
                   </Form.Group>
                   <Form.Group
                      className="mb-3"
@@ -43,6 +76,8 @@ export const Contact = () => {
                      </Form.Label>
                      <Form.Control
                         type="email"
+                        onChange={handleOnChange}
+                        name="email"
                         placeholder="name@example.com"
                      />
                   </Form.Group>
@@ -53,9 +88,14 @@ export const Contact = () => {
                      <Form.Label className="form-title">
                         Your Message
                      </Form.Label>
-                     <Form.Control as="textarea" rows={3} />
+                     <Form.Control
+                        as="textarea"
+                        name="message"
+                        onChange={handleOnChange}
+                        rows={3}
+                     />
                   </Form.Group>
-                  <Button>Send</Button>
+                  <Button type="submit">Send</Button>
                </Form>
             </div>
          </Container>

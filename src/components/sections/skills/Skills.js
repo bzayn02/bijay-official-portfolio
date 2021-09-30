@@ -4,12 +4,10 @@ import { Title } from '../../section-title/Title';
 import { SkillsCards } from './SkillsCards';
 
 import './skills.style.css';
-import { TopNavbar } from '../../header/Navbar';
 
 export const Skills = () => {
    return (
       <div className="Skills" id="Skills">
-         <TopNavbar />
          <Container>
             <Row className="pt-5">
                <Col className="skills">
@@ -20,33 +18,45 @@ export const Skills = () => {
                            <i
                               className="icons fab fa-html5"
                               style={{
-                                 color: 'red',
+                                 color: 'rgb(235, 79, 52)',
                               }}
                            />
                         }
                         cardSubTitle="HTML"
-                        cardBar={<ProgressBar now={80} />}
-                        cardText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatibus libero qui mollitia quaerat ratione autem nihil ut a."
+                        cardBar={
+                           <ProgressBar
+                              now={80}
+                              style={{
+                                 backgroundColor: 'rgb(235, 79, 52)',
+                              }}
+                           />
+                        }
                      />
                      <SkillsCards
                         cardTitle={
                            <i
-                              class="icons fab fa-css3-alt"
+                              className="icons fab fa-css3-alt"
                               style={{
-                                 color: 'blue',
+                                 color: 'rgb(68, 134, 189)',
                               }}
                            >
                               {' '}
                            </i>
                         }
                         cardSubTitle="CSS"
-                        cardBar={<ProgressBar now={80} />}
-                        cardText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatibus libero qui mollitia quaerat ratione autem nihil ut a."
+                        cardBar={
+                           <ProgressBar
+                              now={80}
+                              style={{
+                                 backgroundColor: 'rgb(68, 134, 189)',
+                              }}
+                           />
+                        }
                      />
                      <SkillsCards
                         cardTitle={
                            <i
-                              class="fab fa-js icons"
+                              className="fab fa-js icons"
                               style={{
                                  color: 'rgb(185, 148, 26)',
                               }}
@@ -55,36 +65,135 @@ export const Skills = () => {
                            </i>
                         }
                         cardSubTitle="Javascript"
-                        cardBar={<ProgressBar now={80} />}
-                        cardText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatibus libero qui mollitia quaerat ratione autem nihil ut a."
+                        cardBar={
+                           <ProgressBar
+                              now={80}
+                              style={{
+                                 backgroundColor: 'rgb(185, 148, 26)',
+                              }}
+                           />
+                        }
                      />
                      <SkillsCards
                         cardTitle={
                            <i
-                              class="fab fa-bootstrap icons"
+                              className="fab fa-bootstrap icons"
                               style={{
-                                 color: 'violet',
+                                 color: 'rgb(138, 107, 209)',
                               }}
                            >
                               {' '}
                            </i>
                         }
                         cardSubTitle="Bootstrap"
-                        cardBar={<ProgressBar now={80} />}
-                        cardText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatibus libero qui mollitia quaerat ratione autem nihil ut a."
+                        cardBar={
+                           <ProgressBar
+                              now={80}
+                              style={{
+                                 backgroundColor: 'rgb(138, 107, 209)',
+                              }}
+                           />
+                        }
                      />
                      <SkillsCards
                         cardTitle={
                            <i
-                              class="fab fa-react icons"
+                              className="fab fa-react icons"
                               style={{
-                                 color: 'green',
+                                 color: 'rgb(133, 201, 151)',
                               }}
                            ></i>
                         }
                         cardSubTitle="React"
+                        cardBar={
+                           <ProgressBar
+                              now={80}
+                              style={{
+                                 backgroundColor: 'rgb(133, 201, 151)',
+                              }}
+                           />
+                        }
+                     />
+                     <SkillsCards
+                        cardTitle={
+                           <i
+                              className="fab fa-node icons"
+                              style={{
+                                 color: 'rgb(205, 188, 212)',
+                              }}
+                           ></i>
+                        }
+                        cardSubTitle="Node"
                         cardBar={<ProgressBar now={80} />}
-                        cardText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatibus libero qui mollitia quaerat ratione autem nihil ut a."
+                     />
+                     <SkillsCards
+                        cardTitle={
+                           <i
+                              className="fas fa-database"
+                              style={{
+                                 color: 'rgb(0, 158, 26)',
+                              }}
+                           ></i>
+                        }
+                        cardSubTitle="Mongo DB"
+                        cardBar={
+                           <ProgressBar
+                              now={80}
+                              style={{ backgroundColor: 'rgb(0, 158, 26)' }}
+                           />
+                        }
+                     />
+                     <SkillsCards
+                        cardTitle={
+                           <i
+                              class="fa fa-puzzle-piece"
+                              aria-hidden="true"
+                              style={{
+                                 color: 'rgb(168, 0, 0)',
+                              }}
+                           ></i>
+                        }
+                        cardSubTitle="Problem Solving"
+                        cardBar={
+                           <ProgressBar
+                              now={80}
+                              style={{
+                                 backgroundColor: 'rgb(168, 0, 0)',
+                              }}
+                           />
+                        }
+                     />
+
+                     <SkillsCards
+                        cardTitle={
+                           <i
+                              class="fa-light fa-sass"
+                              style={{
+                                 color: 'red',
+                              }}
+                           ></i>
+                        }
+                        cardSubTitle="SASS"
+                        cardBar={<ProgressBar now={80} />}
+                     />
+                     <SkillsCards
+                        cardTitle={
+                           <i
+                              className="fa fa-palette"
+                              style={{
+                                 color: 'rgb(255, 143, 143)',
+                              }}
+                           ></i>
+                        }
+                        cardSubTitle="Design"
+                        cardBar={
+                           <ProgressBar
+                              now={80}
+                              style={{
+                                 backgroundColor: 'rgb(255, 143, 143)',
+                              }}
+                           />
+                        }
                      />
                   </div>
                </Col>

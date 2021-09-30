@@ -2,6 +2,11 @@
    font-size: 1.5rem;
    max-width: 70ch;
    color: rgb(175, 175, 175);
+   padding: 3rem 2rem 3rem 3rem;
+}
+
+.pro-img {
+   margin-top: -3rem;
 }
 
 .about {
@@ -62,6 +67,19 @@
    letter-spacing: 2px;
 }
 
+.timeline-content .headings {
+   font-size: 30px;
+   font-weight: 400;
+}
+.timeline-header {
+   color: white;
+   text-align: center;
+   text-decoration: underline;
+}
+
+.timeline-header:hover {
+   color: rgb(214, 202, 38);
+}
 @media only screen and (min-width: 768px) {
    .timeline::before {
       content: '';

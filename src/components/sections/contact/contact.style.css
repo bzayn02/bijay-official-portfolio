@@ -18,12 +18,12 @@
 }
 
 .ContactLists i {
-   font-size: 2.5rem;
+   font-size: 2rem;
 }
 
 .handlers {
    margin-left: 0.6rem;
-   font-size: 1.6rem;
+   font-size: 1.5rem;
 }
 
 .form-title {
@@ -36,4 +36,11 @@
    padding: 30px;
    margin-left: auto;
    margin-right: auto;
+}
+.textheader {
+   font-size: 30px;
+   color: rgb(209, 235, 198);
+   font-family: 'Trebuchet';
+   text-align: center;
+   font-weight: 600;
 }
