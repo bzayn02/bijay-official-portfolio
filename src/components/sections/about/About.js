@@ -4,9 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import './about.style.css';
 import bijay from '../../../assets/images/bijay.png';
-import { TopNavbar } from '../../header/Navbar';
 import { QualificationTimeline } from './QualificationTimeline';
-import { WorkExperienceTimeline } from './WorkExperienceTimeline';
 
 export const About = () => {
    return (

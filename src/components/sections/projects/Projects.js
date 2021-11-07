@@ -4,7 +4,6 @@ import { Title } from '../../section-title/Title';
 import portfolio from '../../../assets/images/Mask Group.png';
 
 import './projects.style.css';
-import { TopNavbar } from '../../header/Navbar';
 
 export const Projects = () => {
    return (
