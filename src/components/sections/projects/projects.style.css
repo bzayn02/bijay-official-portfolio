@@ -3,3 +3,35 @@
    min-height: 100vh;
    color: white;
 }
+
+a {
+   text-decoration: none;
+   color: white !important;
+}
+
+.myprojectlists {
+   /* padding: 1rem; */
+}
+
+.info .info-title {
+   font-size: 2.5rem !important;
+   color: rgb(214, 202, 38) !important;
+}
+
+.info .tech {
+   color: rgb(184, 171, 153);
+}
+
+.info p {
+   font-size: 1.5rem;
+   font-style: Helvetica !important;
+   color: rgb(183, 186, 177);
+}
+
+.myprojectlists .pro-img {
+   padding-top: 3rem;
+}
+
+.info .links {
+   font-size: 2rem !important;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Title } from '../../section-title/Title';
-import portfolio from '../../../assets/images/Mask Group.png';
+import portfolio from '../../../assets/images/portfolioImg.jpg';
 
 import './projects.style.css';
 
@@ -14,99 +14,107 @@ export const Projects = () => {
                   <Title title="Projects" />
                </Col>
             </Row>
-            <Row className="py-4">
-               <Col md="5">
-                  <div class="pro-img me-2">
-                     <img src={portfolio} height="100%" width="90%" alt="" />
-                  </div>
-               </Col>
-               <Col md="7">
-                  <div className="mb-4">
+            <div className="myprojectlists my-5">
+               <Row className="my-4">
+                  <Col md="5">
+                     <div class="pro-img me-2">
+                        <img src={portfolio} height="100%" width="90%" alt="" />
+                     </div>
+                  </Col>
+                  <Col md="7">
                      <div className="info">
                         <div className="info-title fs-3">Project Portfolio</div>
-                        <div className="tech fs-4">Techs used.</div>
+                        <div className="tech fs-4">
+                           Techs used:{'  '}
+                           <i>HTML, CSS, React</i>{' '}
+                        </div>
                         <div className="links fs-4">
                            <a href="https://github.com/bzayn02">
                               <i className="fab fa-github-square"></i>
                            </a>
-                           <a href="">
-                              <i className="fab fa-chrome"></i>
-                           </a>
                         </div>
                         <p>
-                           Lorem ipsum dolor sit amet, consectetur adipisicing
-                           elit. Voluptatum necessitatibus ullam eum et
-                           voluptatibus. Repellendus maiores similique quae in
-                           provident!
+                           This project portfolio was created to demonstrate my
+                           reflection based on skills, projects, experiences and
+                           qualifications. I have used React to build various
+                           components, pages. Moreover, I've used React-Router
+                           to make it multipage.
                         </p>
                      </div>
-                  </div>
-               </Col>
-            </Row>
+                  </Col>
+               </Row>
+            </div>
 
-            <hr />
-
-            <Row className="my-4">
-               <Col md="7">
-                  <div className="mb-4">
+            <div className="myprojectlists my-5">
+               <Row className="my-4">
+                  <Col md="7">
                      <div className="info">
-                        <div className="info-title fs-3">Project Portfolio</div>
-                        <div className="tech fs-4">Techs used.</div>
+                        <div className="info-title fs-3">
+                           Project Not To Do List
+                        </div>
+                        <div className="tech fs-4">
+                           Techs used:{'  '}
+                           <i>HTML, CSS, React, Node, Mongo</i>{' '}
+                        </div>
                         <div className="links fs-4">
                            <a href="https://github.com/bzayn02">
                               <i className="fab fa-github-square"></i>
                            </a>
-                           <a href="">
-                              <i className="fab fa-chrome"></i>
-                           </a>
                         </div>
                         <p>
-                           Lorem ipsum dolor sit amet, consectetur adipisicing
-                           elit. Voluptatum necessitatibus ullam eum et
-                           voluptatibus. Repellendus maiores similique quae in
-                           provident!
+                           No wonder, to-do list app is omnipresent. This app is
+                           one step ahead of to-do list where we can list all
+                           the tasks that we do in a week. And then, we can
+                           eliminate the tasks that are wasting our time and are
+                           non-productive to not-to-do list. From this we can
+                           know how many hours are saved so that we can really
+                           focus on the tasks that are important. This project
+                           is built with React in frontend and Node and Express
+                           in backend.
                         </p>
                      </div>
-                  </div>
-               </Col>
-               <Col md="5">
-                  <div className="pro-img me-2">
-                     <img src={portfolio} height="100%" width="90%" alt="" />
-                  </div>
-               </Col>
-            </Row>
-
-            <hr />
-
-            <Row className="py-4">
-               <Col md="5">
-                  <div className="pro-img me-2">
-                     <img src={portfolio} height="100%" width="90%" alt="" />
-                  </div>
-               </Col>
-               <Col md="7">
-                  <div className="pb-4">
+                  </Col>
+                  <Col md="5">
+                     <div className="pro-img me-2">
+                        <img src={portfolio} height="100%" width="90%" alt="" />
+                     </div>
+                  </Col>
+               </Row>
+            </div>
+            <div className="myprojectlists mt-5">
+               <Row className="py-4">
+                  <Col md="5">
+                     <div className="pro-img me-2">
+                        <img src={portfolio} height="100%" width="90%" alt="" />
+                     </div>
+                  </Col>
+                  <Col md="7">
                      <div className="info">
-                        <div className="info-title fs-3">Project Portfolio</div>
-                        <div className="tech fs-4">Techs used.</div>
+                        <div className="info-title fs-3">
+                           Project Full-Stack E-Commerce
+                        </div>
+                        <div className="tech fs-4">
+                           Techs used:{'  '}
+                           <i>HTML, CSS, React, Node, Mongo</i>{' '}
+                        </div>
                         <div className="links fs-4">
                            <a href="https://github.com/bzayn02">
                               <i className="fab fa-github-square"></i>
                            </a>
-                           <a href="">
-                              <i className="fab fa-chrome"></i>
-                           </a>
                         </div>
                         <p>
-                           Lorem ipsum dolor sit amet, consectetur adipisicing
-                           elit. Voluptatum necessitatibus ullam eum et
-                           voluptatibus. Repellendus maiores similique quae in
-                           provident!
+                           E-commerce full stack application is built with admin
+                           and customer user panels. This project is huge having
+                           all the necessary features that should be in any
+                           e-commerce platform including registration, login,
+                           authentication, validation, email-confirmation, jwt,
+                           auto-login, and so on. Customer panel is still under
+                           development.
                         </p>
                      </div>
-                  </div>
-               </Col>
-            </Row>
+                  </Col>
+               </Row>
+            </div>
          </Container>
       </div>
    );

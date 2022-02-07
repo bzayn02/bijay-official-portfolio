@@ -7,20 +7,11 @@ import { Contact } from './components/sections/contact/Contact';
 import { MainLayout } from './components/layout/MainLayout';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { useState } from 'react';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-   const [addMessage, setAddMessage] = useState([]);
-
-   const sendMessage = (FrmData) => {
-      console.log('form sent', FrmData);
-      setAddMessage([...addMessage, FrmData]);
-   };
-   console.log(addMessage);
-
    return (
       <div className="App">
          <Router>
@@ -29,11 +20,7 @@ function App() {
                   <Route exact path="/Skills" children={<Skills />} />
                   <Route exact path="/Projects" children={<Projects />} />
                   <Route exact path="/About" children={<About />} />
-                  <Route
-                     exact
-                     path="/Contact"
-                     children={<Contact sendMessage={sendMessage} />}
-                  />
+                  <Route exact path="/Contact" children={<Contact />} />
                   <Route exact path="/" children={<Hero />} />
                </MainLayout>
             </Switch>
