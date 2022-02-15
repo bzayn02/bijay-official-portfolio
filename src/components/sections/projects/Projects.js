@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Title } from '../../section-title/Title';
 import portfolio from '../../../assets/images/portfolioImg.jpg';
+import nottodo from '../../../assets/images/not-to-do.png';
+import adminecom from '../../../assets/images/admin-ecom.png';
 
 import './projects.style.css';
 
@@ -78,7 +80,7 @@ export const Projects = () => {
                   </Col>
                   <Col md="5">
                      <div className="pro-img me-2">
-                        <img src={portfolio} height="100%" width="90%" alt="" />
+                        <img src={nottodo} height="100%" width="90%" alt="" />
                      </div>
                   </Col>
                </Row>
@@ -87,7 +89,7 @@ export const Projects = () => {
                <Row className="py-4">
                   <Col md="5">
                      <div className="pro-img me-2">
-                        <img src={portfolio} height="100%" width="90%" alt="" />
+                        <img src={adminecom} height="100%" width="90%" alt="" />
                      </div>
                   </Col>
                   <Col md="7">
