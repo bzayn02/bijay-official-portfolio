@@ -14,6 +14,11 @@
    min-height: 850px;
 }
 
+.about-description {
+   font-size: 2rem;
+   font-style: Helvetica !important;
+}
+
 /********* timeline ***********/
 .wrapper {
    width: 100%;

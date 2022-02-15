@@ -1,6 +1,6 @@
 .contact {
    background: linear-gradient(to top, rgb(11, 19, 36), rgba(66, 67, 148, 1));
-   min-height: 850px;
+   min-height: 100vh;
 }
 
 .ContactLists {
@@ -23,6 +23,7 @@
 
 .handlers {
    margin-left: 0.6rem;
+   color: rgb(183, 196, 150);
    font-size: 1.5rem;
 }
 
@@ -30,17 +31,31 @@
    color: rgb(214, 202, 38);
 }
 
-#contact-form {
-   max-width: 65%;
-   border: 2px solid rgb(214, 202, 38);
-   padding: 30px;
-   margin-left: auto;
-   margin-right: auto;
-}
 .textheader {
-   font-size: 30px;
-   color: rgb(209, 235, 198);
+   font-size: 39px;
+   color: rgb(175, 180, 172);
    font-family: 'Trebuchet';
    text-align: center;
    font-weight: 600;
+}
+
+.lists-of-contacts {
+   list-style: none !important;
+   font-size: 2.2rem;
+   margin-left: 6rem;
+   margin-top: 2rem;
+}
+
+.lists-of-contacts a {
+   text-decoration: none;
+   color: white;
+}
+.big {
+   font-size: 30rem;
+   color: rgba(112, 109, 109, 0.233);
+   margin-top: -7rem;
+   margin-left: -4rem;
+}
+.contacts-handlers {
+   min-width: 300px;
 }

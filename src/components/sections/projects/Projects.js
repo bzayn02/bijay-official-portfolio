@@ -15,15 +15,17 @@ export const Projects = () => {
                </Col>
             </Row>
             <div className="myprojectlists my-5">
-               <Row className="my-4">
+               <Row className="">
                   <Col md="5">
                      <div class="pro-img me-2">
                         <img src={portfolio} height="100%" width="90%" alt="" />
                      </div>
                   </Col>
                   <Col md="7">
-                     <div className="info">
-                        <div className="info-title fs-3">Project Portfolio</div>
+                     <span className="info">
+                        <span className="info-title fs-3">
+                           Project Portfolio
+                        </span>
                         <div className="tech fs-4">
                            Techs used:{'  '}
                            <i>HTML, CSS, React</i>{' '}
@@ -40,18 +42,18 @@ export const Projects = () => {
                            components, pages. Moreover, I've used React-Router
                            to make it multipage.
                         </p>
-                     </div>
+                     </span>
                   </Col>
                </Row>
             </div>
 
-            <div className="myprojectlists my-5">
-               <Row className="my-4">
+            <div className="myprojectlists">
+               <Row className="">
                   <Col md="7">
-                     <div className="info">
-                        <div className="info-title fs-3">
+                     <span className="info">
+                        <span className="info-title fs-3">
                            Project Not To Do List
-                        </div>
+                        </span>
                         <div className="tech fs-4">
                            Techs used:{'  '}
                            <i>HTML, CSS, React, Node, Mongo</i>{' '}
@@ -72,7 +74,7 @@ export const Projects = () => {
                            is built with React in frontend and Node and Express
                            in backend.
                         </p>
-                     </div>
+                     </span>
                   </Col>
                   <Col md="5">
                      <div className="pro-img me-2">
@@ -89,10 +91,10 @@ export const Projects = () => {
                      </div>
                   </Col>
                   <Col md="7">
-                     <div className="info">
-                        <div className="info-title fs-3">
+                     <span className="info">
+                        <span className="info-title fs-3">
                            Project Full-Stack E-Commerce
-                        </div>
+                        </span>
                         <div className="tech fs-4">
                            Techs used:{'  '}
                            <i>HTML, CSS, React, Node, Mongo</i>{' '}
@@ -111,7 +113,7 @@ export const Projects = () => {
                            auto-login, and so on. Customer panel is still under
                            development.
                         </p>
-                     </div>
+                     </span>
                   </Col>
                </Row>
             </div>

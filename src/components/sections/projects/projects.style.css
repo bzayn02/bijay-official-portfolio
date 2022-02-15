@@ -29,9 +29,10 @@ a {
 }
 
 .myprojectlists .pro-img {
-   padding-top: 3rem;
+   padding-top: 2rem;
 }
 
 .info .links {
    font-size: 2rem !important;
+   color: rgb(226, 248, 249);
 }

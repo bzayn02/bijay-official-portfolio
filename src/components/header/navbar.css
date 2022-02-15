@@ -21,4 +21,5 @@ span.navbar-toggler-icon {
    width: 100%;
    height: auto;
    transition: 0.4s !important;
+   background-color: rgba(1, 36, 51, 0.699) !important;
 }

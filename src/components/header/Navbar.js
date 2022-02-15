@@ -7,7 +7,7 @@ import logo from '../../assets/images/bijaylogo.png';
 
 export const TopNavbar = () => {
    return (
-      <div className="navlists bg-dark ">
+      <div className="navlists">
          <Navbar collapseOnSelect expand="md">
             <Container>
                <LinkContainer className="logo" to="/">

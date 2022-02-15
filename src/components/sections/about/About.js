@@ -17,12 +17,15 @@ export const About = () => {
             </Row>
             <Row className="">
                <Col md="7">
-                  <div className="py-2 about-description">
+                  <div className="py-2 about-description mt-5">
                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Aut voluptatibus libero qui mollitia quaerat
-                        ratione autem nihil ut a. Quo facere quisquam fuga neque
-                        repellat, rerum vitae beatae reprehenderit inventore!
+                        A self-disciplined and passionate Bachelor of
+                        Information Technology (Software Engineering) graduate
+                        from Kent Institute Australia, seeking to start a career
+                        as a web developer (MERN: frontend and backend). Keen to
+                        learn and further develop my technical abilities in the
+                        field of web development, where I can utilize my problem
+                        solving and good analytical skills.
                      </p>
                   </div>
                </Col>
