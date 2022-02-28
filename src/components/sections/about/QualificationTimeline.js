@@ -5,7 +5,7 @@ import './about.style.css';
 export const QualificationTimeline = () => {
    return (
       <Container>
-         <h1 className="timeline-header">Qualifications</h1>
+         <h1 className="timeline-header mt-5">Qualifications</h1>
          <div className="wrapper">
             <div className="timeline">
                <ul>

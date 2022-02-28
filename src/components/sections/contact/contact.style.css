@@ -23,8 +23,8 @@
 
 .handlers {
    margin-left: 0.6rem;
-   color: rgb(183, 196, 150);
-   font-size: 1.5rem;
+   color: rgb(214, 202, 38);
+   font-size: 2rem;
 }
 
 .form-title {
@@ -33,15 +33,15 @@
 
 .textheader {
    font-size: 39px;
-   color: rgb(175, 180, 172);
-   font-family: 'Trebuchet';
+   color: rgb(226, 233, 222);
+
    text-align: center;
    font-weight: 600;
 }
 
 .lists-of-contacts {
    list-style: none !important;
-   font-size: 2.2rem;
+   font-size: 3rem;
    margin-left: 6rem;
    margin-top: 2rem;
 }
@@ -49,13 +49,13 @@
 .lists-of-contacts a {
    text-decoration: none;
    color: white;
+   align-items: center;
 }
-.big {
-   font-size: 30rem;
-   color: rgba(112, 109, 109, 0.233);
-   margin-top: -7rem;
-   margin-left: -4rem;
-}
+
 .contacts-handlers {
    min-width: 300px;
+   display: flex;
+   flex-basis: auto;
+   flex-direction: column;
+   align-items: center;
 }

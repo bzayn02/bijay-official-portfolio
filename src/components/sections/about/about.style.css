@@ -1,22 +1,12 @@
 .about-description {
-   font-size: 1.5rem;
-   max-width: 70ch;
-   color: rgb(175, 175, 175);
-   padding: 3rem 2rem 3rem 3rem;
-}
-
-.pro-img {
-   margin-top: -3rem;
+   font-size: 1.8rem;
+   color: rgb(255, 250, 250);
+   text-align: center;
 }
 
 .about {
    background: linear-gradient(to top, rgb(11, 19, 36), rgba(66, 67, 148, 1));
    min-height: 850px;
-}
-
-.about-description {
-   font-size: 2rem;
-   font-style: Helvetica !important;
 }
 
 /********* timeline ***********/
