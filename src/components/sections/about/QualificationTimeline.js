@@ -11,12 +11,28 @@ export const QualificationTimeline = () => {
                <ul>
                   <li>
                      <div className="timeline-content">
-                        <h3 className="date">Now</h3>
-                        <h2 className="headings">MERN Stack Bootcamp</h2>
+                        <h3 className="date">Completed</h3>
+                        <h2 className="headings">
+                           Full Stack Developer Internship
+                        </h2>
+                        <p>RebbTech Pty Ltd</p>
+                     </div>
+                  </li>
+                  <li>
+                     <div className="timeline-content">
+                        <h3 className="date">Graduated</h3>
+                        <h2 className="headings">Professional Year</h2>
                         <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing
-                           elit. Itaque ducimus architecto quae ipsam ratione
+                           QIBA - Queensland International Business Academy,
+                           Sydney
                         </p>
+                     </div>
+                  </li>
+                  <li>
+                     <div className="timeline-content">
+                        <h3 className="date">Completed</h3>
+                        <h2 className="headings">MERN Stack Bootcamp</h2>
+                        <p>Dented Code Academy, Rockdale</p>
                      </div>
                   </li>
                   <li>
@@ -25,19 +41,18 @@ export const QualificationTimeline = () => {
                         <h2 className="headings">
                            Bachelor in Information Technology
                         </h2>
-                        <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing
-                           elit. Itaque ducimus architecto quae ipsam ratione
-                        </p>
+                        <p>Kent Institute Australia, Sydney</p>
                      </div>
                   </li>
                   <li>
                      <div className="timeline-content">
                         <h3 className="date">12th November, 2019</h3>
-                        <h2 className="headings">Advanced Diploma</h2>
+                        <h2 className="headings">
+                           Advanced Diploma of Information Technology
+                        </h2>
                         <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing
-                           elit. Itaque ducimus architecto quae ipsam ratione
+                           ACBI - Australian College of Business Intelligence,
+                           Sydney
                         </p>
                      </div>
                   </li>
@@ -45,10 +60,7 @@ export const QualificationTimeline = () => {
                      <div className="timeline-content">
                         <h3 className="date">12th September, 2016</h3>
                         <h2 className="headings">Year 12</h2>
-                        <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing
-                           elit. Itaque ducimus architecto quae ipsam ratione
-                        </p>
+                        <p>CCRC - Capital College And Research Center, Nepal</p>
                      </div>
                   </li>
                   <li>
@@ -56,8 +68,7 @@ export const QualificationTimeline = () => {
                         <h3 className="date">12th OCtober, 2014</h3>
                         <h2 className="headings">School Leaving Certificate</h2>
                         <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing
-                           elit. Itaque ducimus architecto quae ipsam ratione
+                           Nepal Police Higher Secondary Boarding School, Nepal
                         </p>
                      </div>
                   </li>
