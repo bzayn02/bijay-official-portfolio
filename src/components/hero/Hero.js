@@ -12,7 +12,7 @@ export const Hero = () => {
             <div className="portfolio-hero">
                <div className="introduction">
                   {' '}
-                  <span className="intro">Hi I'm </span> <br />
+                  <span className=" text-xl intro">Hi I'm </span> <br />
                   <span className="name">Bijay Nagarkoti. </span>
                   <br />
                   <span className="dev">A Full Stack Web Developer</span>

@@ -44,3 +44,20 @@
    height: 600px;
    width: auto;
 }
+
+// for mobile responsiveness
+
+@media only screen and (max-width: 768px) {
+   .name {
+      font-size: 2rem;
+      font-weight: 200;
+      color: rgb(214, 202, 38);
+   }
+}
+@media only screen and (max-width: 576px) {
+   .name {
+      font-size: 2rem;
+      font-weight: 100;
+      color: rgb(214, 202, 38);
+   }
+}
