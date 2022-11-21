@@ -195,7 +195,7 @@ export const Projects = () => {
                            </a>
                            <a
                               className=" m-3"
-                              href="tailwind-with-react.vercel.app"
+                              href="https://tailwind-with-react.vercel.app"
                            >
                               Link
                            </a>
@@ -231,7 +231,7 @@ export const Projects = () => {
                            </a>
                            <a
                               className=" m-3"
-                              href="sanity-medium-blog-self.vercel.app"
+                              href="https://sanity-medium-blog-self.vercel.app"
                            >
                               Link
                            </a>
